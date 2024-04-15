@@ -5,7 +5,7 @@ import LayoutHome from "@/features/home/components/layout_home";
 import Filters from '@/features/home/components/filters';
 import TableSection from '@/features/home/components/table/table_section';
 import { StationProvider } from '../features/home/hooks/station_context';
-import StationDetail from "@/features/home/components/section/station_detail";
+import StationDetail from "@/features/home/subfeatures/station_detail/station_detail";
 import { registerLicense } from '@syncfusion/ej2-base';
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
     <StationProvider>
       <Navbar />
       <LayoutHome
-        isDivided={false}
+        isDivided={true}
         contentOne={
           <div className="w-full h-full bg-white rounded-xl border border-ui-blue-100 px-3 pt-7">
             <Filters />

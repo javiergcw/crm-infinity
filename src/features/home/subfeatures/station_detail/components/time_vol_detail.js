@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import CustomContainer from '@/components/container/custom_container';
 import ProgressSection from './progress_section';
-import ButtonGroup from '../button/button_group';
+import ButtonGroup from '../../../components/button/button_group';
 
 const TimeVolDetail = ({ progressData }) => {
     return (

@@ -3,12 +3,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useStation } from '../../hooks/station_context';
 import { ImagesPath } from '@/utils/images_path';
-import TitleSubtitleDetail from './title_subtitle_detail';
-import TimeVolDetail from './time_vol_detail';
-import NoStationSelected from './no_station_selected';
-import ScrollableIconRow from '../card/category/scrollable_icon_row';
-import ButtonShowMore from '../button/button_show_more';
-import GridTwoComponent from '../card/data/grid_two_component';
+import TitleSubtitleDetail from './components/title_subtitle_detail';
+import TimeVolDetail from './components/time_vol_detail';
+import NoStationSelected from './components/no_station_selected';
+import ScrollableIconRow from './components/card/category/scrollable_icon_row';
+import ButtonShowMore from '../../components/button/button_show_more';
+import GridTwoComponent from './components/card/data/grid_two_component';
 
 const StationDetail = () => {
 
