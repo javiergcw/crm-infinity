@@ -6,8 +6,8 @@
         "eds_name": "PDS Estación Calle 84",
         "com": "Com. Industrial",
         "sc": "SC-22-03",
-        "percentage": 68,
-        "status": "Activo",
+        "percentage": 20,
+        "status": "ACTIVO",
         "contract_number": "SC-22-192",
         "consumption_cut": "30/10/23",
         "by_time": {
@@ -43,7 +43,7 @@
         "com": "Com. Residencial",
         "sc": "SC-22-06",
         "percentage": 70,
-        "status": "Activo",
+        "status": "ACTIVO",
         "contract_number": "SC-22-193",
         "consumption_cut": "29/10/23",
         "by_time": {
@@ -78,8 +78,8 @@
         "eds_name": "PDS Estación Calle 86",
         "com": "Com. Mixto",
         "sc": "SC-22-07",
-        "percentage": 65,
-        "status": "Inactivo",
+        "percentage": 90,
+        "status": "INACTIVO",
         "contract_number": "SC-22-194",
         "consumption_cut": "28/10/23",
         "by_time": {
@@ -117,7 +117,7 @@
         "com": "Com. Industrial",
         "sc": "SC-22-03",
         "percentage": 68,
-        "status": "Activo",
+        "status": "ACTIVO",
         "contract_number": "SC-22-192",
         "consumption_cut": "30/10/23",
         "by_time": {
@@ -153,7 +153,7 @@
         "com": "Com. Residencial",
         "sc": "SC-22-06",
         "percentage": 70,
-        "status": "Activo",
+        "status": "ACTIVO",
         "contract_number": "SC-22-193",
         "consumption_cut": "29/10/23",
         "by_time": {
@@ -189,7 +189,7 @@
         "com": "Com. Mixto",
         "sc": "SC-22-07",
         "percentage": 65,
-        "status": "Inactivo",
+        "status": "INACTIVO",
         "contract_number": "SC-22-194",
         "consumption_cut": "28/10/23",
         "by_time": {
@@ -227,7 +227,7 @@
         "com": "Com. Industrial",
         "sc": "SC-22-03",
         "percentage": 68,
-        "status": "Activo",
+        "status": "ACTIVO",
         "contract_number": "SC-22-192",
         "consumption_cut": "30/10/23",
         "by_time": {
@@ -263,7 +263,7 @@
         "com": "Com. Residencial",
         "sc": "SC-22-06",
         "percentage": 70,
-        "status": "Activo",
+        "status": "ACTIVO",
         "contract_number": "SC-22-193",
         "consumption_cut": "29/10/23",
         "by_time": {
@@ -299,7 +299,7 @@
         "com": "Com. Mixto",
         "sc": "SC-22-07",
         "percentage": 65,
-        "status": "Inactivo",
+        "status": "INACTIVO",
         "contract_number": "SC-22-194",
         "consumption_cut": "28/10/23",
         "by_time": {
@@ -337,7 +337,7 @@
         "com": "Com. Industrial",
         "sc": "SC-22-03",
         "percentage": 68,
-        "status": "Activo",
+        "status": "ACTIVO",
         "contract_number": "SC-22-192",
         "consumption_cut": "30/10/23",
         "by_time": {
@@ -373,7 +373,7 @@
         "com": "Com. Residencial",
         "sc": "SC-22-06",
         "percentage": 70,
-        "status": "Activo",
+        "status": "ACTIVO",
         "contract_number": "SC-22-193",
         "consumption_cut": "29/10/23",
         "by_time": {
@@ -409,7 +409,7 @@
         "com": "Com. Mixto",
         "sc": "SC-22-07",
         "percentage": 65,
-        "status": "Inactivo",
+        "status": "INACTIVO",
         "contract_number": "SC-22-194",
         "consumption_cut": "28/10/23",
         "by_time": {
@@ -447,7 +447,7 @@
         "com": "Com. Industrial",
         "sc": "SC-22-03",
         "percentage": 68,
-        "status": "Activo",
+        "status": "ACTIVO",
         "contract_number": "SC-22-192",
         "consumption_cut": "30/10/23",
         "by_time": {
@@ -483,7 +483,7 @@
         "com": "Com. Residencial",
         "sc": "SC-22-06",
         "percentage": 70,
-        "status": "Activo",
+        "status": "ACTIVO",
         "contract_number": "SC-22-193",
         "consumption_cut": "29/10/23",
         "by_time": {
@@ -519,7 +519,7 @@
         "com": "Com. Mixto",
         "sc": "SC-22-07",
         "percentage": 65,
-        "status": "Inactivo",
+        "status": "INACTIVO",
         "contract_number": "SC-22-194",
         "consumption_cut": "28/10/23",
         "by_time": {

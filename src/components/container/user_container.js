@@ -30,7 +30,7 @@ const UserContainer = ({ name, role, imageUrl }) => {
             <div onClick={toggleMenu} className="flex items-center bg-white py-4 pl-4 border-l-2 border-ui-light-gray-300 h-10 cursor-pointer">
                 <Image src={ImagesPath.verticalDots} alt="Settings icon" width={20} height={20} className="w-5 h-5 object-contain" />
                 <div className="flex-grow mx-4 text-right">
-                    <div className="p-bold-gray">{name}</div>
+                    <div className="p-semibold-gray">{name}</div>
                     <div className="s1-medium-gray">{role}</div>
                 </div>
                 <div className="flex-shrink-0">

@@ -15,11 +15,20 @@
     }
 
     /* gray */
+
+    .normal-gray {
+        @apply text-sm font-heading text-ui-gray;
+    }
+
     .medium-normal-gray {
         @apply text-sm font-heading text-ui-gray-300;
     }
 
     .p-bold-gray {
+        @apply text-sm font-bold font-heading text-ui-gray-300;
+    }
+
+    .p-semibold-gray {
         @apply text-sm font-semibold font-heading text-ui-gray-300;
     }
 
@@ -54,6 +63,16 @@
         @apply text-sm font-heading text-ui-red-500
     }
 
+    /* green */
+    .small-normal-green {
+        @apply text-2xs font-heading text-ui-green-500
+    }
+
+    /* yellow */
+    .small-normal-yellow {
+        @apply text-2xs font-heading text-ui-yellow-400
+    }
+
     /* others */
     .h-main {
         @apply h-screen;
@@ -64,5 +83,51 @@
     .h-910 {
         height: 90%;
     }
+
+    .radio-custom {
+        position: relative;
+        padding: 10px;
+    }
+
+    .radio-custom input[type="radio"] {
+        appearance: none;
+        /* Remueve el estilo predeterminado */
+        width: 20px;
+        /* Tamaño del botón de radio */
+        height: 20px;
+        /* Tamaño del botón de radio */
+        background: white;
+        /* Color de fondo inicial */
+        border: 1px solid #DBDBDB;
+        /* Color de borde inicial */
+        border-radius: 50%;
+        /* Hace el botón redondo */
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        outline: none;
+        /* Elimina el contorno que se muestra al enfocar el input */
+    }
+
+    .radio-custom input[type="radio"]:before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: transparent;
+        transition: background 0.3s, border-color 0.3s;
+        border: 1px solid transparent;
+    }
+
+    .radio-custom input[type="radio"]:checked:before {
+        background-color: #4564FF;
+        border-color: #4564FF;
+        border: 1px solid #4564FF;
+    }
+
 
 }

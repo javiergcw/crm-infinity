@@ -1,5 +1,6 @@
 import React from 'react';
 import { useStation } from '../../hooks/station_context';
+
 const StationDetail = () => {
     const { selectedStation } = useStation();
 
