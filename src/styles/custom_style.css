@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    /* style text  */
+    /*  blue */
+    .h3-medium-blue {
+        @apply text-xl font-heading text-ui-blue-900;
+    }
+
+    .small-blue-semibold {
+        @apply text-xs font-heading text-ui-blue-800 font-semibold; 
+    }
+
+    /* gray */
+    .medium-normal-gray {
+        @apply text-sm font-heading text-ui-gray-300;
+    }
+
+    .p-bold-gray {
+        @apply text-sm font-semibold font-heading text-ui-gray-300;
+    }
+
+
+    .s2-medium-gray {
+        @apply text-sm font-medium font-heading text-ui-gray-dark-300;
+
+    }
+    .s1-medium-gray {
+        @apply text-xs font-medium font-heading text-ui-gray-dark-300;
+
+    }
+
+
+    /* white */
+    .small-normal-white {
+        @apply text-xs font-heading text-white;
+    }
+
+    /* black */
+    .small-normal-black {
+        @apply text-sm font-heading text-ui-black
+    }
+
+    /* red */
+    .small-normal-red {
+        @apply text-sm font-heading text-ui-red-500
+    }
+
+    /* others */
+    .h-main {
+        @apply h-screen;
+        height: calc(100vh - 4rem);
+        /* Altura de la pantalla menos el alto de la barra de navegación */
+    }
+
+}
