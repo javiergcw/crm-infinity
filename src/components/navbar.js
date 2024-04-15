@@ -6,7 +6,7 @@ import UserProfile from './container/user_container';
 
 const Navbar = () => {
     return (
-        <nav className="bg-white text-gray-700 border-t-2 border-b-2 py-2 border-ui-gray-100 h-16 w-full ">
+        <nav className="bg-white text-gray-700 border-t-2 border-b-2 py-2 border-ui-gray-line h-16 w-full ">
             <div className="mx-4 flex items-center justify-between">
                 <div className='flex flex-row items-center'>
                     <NavIconLink
@@ -23,13 +23,13 @@ const Navbar = () => {
                         alt="people icon"
                         text="Consolidado"
                         count={3}
-                        paddingX="px-3"
+                        paddingX="px-3 cursor-pointer hover:bg-ui-blue-200"
                         paddingY="py-2"
                     />
                     <ContainerStandard
                         src={ImagesPath.bell}
                         alt="bell icon"
-                        paddingX="px-3"
+                        paddingX="px-3 cursor-pointer hover:bg-ui-blue-200"
                         paddingY="py-2"
                         notificationCount="1"
 
@@ -61,7 +61,7 @@ const NavLink = ({ text, href }) => (
 
 const ImageContainer = ({ src, alt }) => (
     <div className="rounded-lg">
-        <Image src={src} alt={alt} width={20} height={20} className="w-full h-full object-contain" />
+        <Image src={src} alt={alt} width={20} height={20} className="w-full h-full " />
     </div>
 );
 

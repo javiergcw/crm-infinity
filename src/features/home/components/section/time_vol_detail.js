@@ -6,7 +6,7 @@ import ButtonGroup from '../buttons/button_group';
 
 const TimeVolDetail = ({ progressData }) => {
     return (
-        <CustomContainer paddingX='flex flex-col p-4 hover:bg-transparent w-full'>
+        <CustomContainer paddingX='flex flex-col p-4 hover:bg-none w-full'>
             <div className='flex flex-col w-full'>
                 {progressData.map((item, index) => (
                     <ProgressSection

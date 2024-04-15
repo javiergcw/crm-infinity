@@ -5,6 +5,7 @@ import { useStation } from '../../hooks/station_context';
 import { ImagesPath } from '@/utils/images_path';
 import TitleSubtitleDetail from './title_subtitle_detail';
 import TimeVolDetail from './time_vol_detail';
+import NoStationSelected from './no_station_selected';
 
 const StationDetail = () => {
 
@@ -28,18 +29,19 @@ const StationDetail = () => {
     const { selectedStation } = useStation();
 
     if (!selectedStation) {
-        return <div>No station selected</div>; // Mensaje cuando no hay estación seleccionada
+        // Mensaje cuando no hay estación seleccionada
+        return <NoStationSelected />
     }
 
 
     // Mostrar la información de la estación seleccionada
     return (
-        <div className="station-info ">
+        <div className="station-info flex flex-col h-full overflow-y-auto">
             <Link href="https://www.google.com" passHref>
                 <div className="relative w-full h-40 cursor-pointer group">
                     {/* Image Container */}
                     <Image
-                        src={ImagesPath.map} // Asegúrate de reemplazar esto con tu path correcto
+                        src={ImagesPath.map}
                         alt="map"
                         width={400}
                         height={400}
@@ -64,15 +66,16 @@ const StationDetail = () => {
                     consumptionDate={selectedStation.consumption_cut}
                 />
                 <TimeVolDetail progressData={progressData} />
+                <h2>Selected Station Details</h2>
+                <ul>
+                    <li>Name: {selectedStation.eds_name}</li>
+                    <li>Commercial: {selectedStation.com}</li>
+                    <li>Service Code: {selectedStation.sc}</li>
+                    <li>Percentage: {selectedStation.percentage}%</li>
+                    <li>Status: <span className={selectedStation.status === "Activo" ? "text-green-500" : "text-red-500"}>{selectedStation.status}</span></li>
+                </ul>
             </div>
-            <h2>Selected Station Details</h2>
-            <ul>
-                <li>Name: {selectedStation.eds_name}</li>
-                <li>Commercial: {selectedStation.com}</li>
-                <li>Service Code: {selectedStation.sc}</li>
-                <li>Percentage: {selectedStation.percentage}%</li>
-                <li>Status: <span className={selectedStation.status === "Activo" ? "text-green-500" : "text-red-500"}>{selectedStation.status}</span></li>
-            </ul>
+
         </div>
     );
 }

@@ -7,7 +7,7 @@ const LayoutHome = ({ isDivided, contentOne, contentTwo, contentThree }) => {
             <div className={`transform transition duration-500 ease-in-out p-4 ${isDivided ? 'w-4/5' : 'w-3/4'} bg-ui-blue-100`}>
                 {contentOne}
             </div>
-            <div className={`transform transition duration-500 ease-in-out p-4 ${isDivided ? 'w-3/5 border-x-2 border-ui-gray-100' : ' w-1/4 border-l-2 border-ui-gray-100'} bg-white`}>
+            <div className={`transform transition duration-500 ease-in-out p-4 ${isDivided ? 'w-3/5 border-x-2 border-ui-gray-line' : ' w-1/4 border-l-2 border-ui-gray-line'} bg-white`}>
                 {contentTwo}
             </div>
             {isDivided && (

@@ -39,7 +39,7 @@ const TableSection = () => {
                             </span>
                             <span className='p-semibold-gray'>{cityName}</span>
                         </button>
-                        <hr className="border-t border-ui-gray-300" />
+                        <hr className="border-t-2 border-ui-gray-200" />
 
                         {openCities[cityName] && (
                             <div className="overflow-y-auto">
@@ -48,8 +48,11 @@ const TableSection = () => {
                                         {stations.map((station, idx) => (
                                             <tr key={idx}
                                                 onClick={() => selectStation(cityName, station)}
-                                                className={`cursor-pointer ${selectedStation?.uniqueId === `${cityName}-${station.sc}` ? "bg-ui-gray-100" : "bg-white"}`}>
-                                                <td className="px-4 py-2">
+                                                className={`
+                                             cursor-pointer 
+                                             ${selectedStation?.uniqueId === `${cityName}-${station.sc}` ? "bg-ui-gray-100" : "bg-white"}
+                                             ${idx !== stations.length - 1 ? "border-b border-ui-gray-200" : ""}
+                                           `}> <td className="px-4 py-2">
                                                     <div className="radio-custom">
                                                         <input
                                                             type="radio"
