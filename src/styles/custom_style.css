@@ -16,6 +16,14 @@
 
     /* gray */
 
+    .h3-gray-500 {
+        @apply text-xl font-heading text-ui-gray-500;
+    }
+
+    .medium-gray-two {
+        @apply text-sm font-heading text-ui-gray-two;
+    }
+
     .normal-gray {
         @apply text-sm font-heading text-ui-gray;
     }
@@ -65,6 +73,10 @@
     /* black */
     .small-normal-black {
         @apply text-sm font-heading text-ui-black
+    }
+
+    .h3-normal-black {
+        @apply text-xl font-heading text-ui-black
     }
 
     /* red */
@@ -142,6 +154,14 @@
         padding: 0 !important;
     }
 
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
 
 
 }

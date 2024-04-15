@@ -16,15 +16,17 @@ module.exports = {
     'ui-blue-900': "#3C57E0",
 
     // gray colors
+    'ui-gray': '#707070',
     'ui-gray-two': '#999999',
     'ui-gray-50': '#F5F5F5',
     'ui-gray-100': '#F7FBFF',
     'ui-gray-300': '#575757',
+    'ui-gray-500': '#CED6DB',
+    'ui-gray-700': '#292929',
     'ui-light-gray-300': '#DDE5EB',
-    'ui-gray': '#707070',
     'ui-gray-dark-300': '#949494',
     'ui-gray-line': '#DDDDDF',
-    'ui-gray-700': '#292929',
+
 
     // red colors
     'ui-red-500': '#EE4266',

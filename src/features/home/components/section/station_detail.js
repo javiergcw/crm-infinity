@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useStation } from '../../hooks/station_context';
@@ -6,6 +6,8 @@ import { ImagesPath } from '@/utils/images_path';
 import TitleSubtitleDetail from './title_subtitle_detail';
 import TimeVolDetail from './time_vol_detail';
 import NoStationSelected from './no_station_selected';
+import ScrollableIconRow from '../card/scrolable_icon_row';
+import ButtonShowMore from '../button/button_show_more';
 
 const StationDetail = () => {
 
@@ -25,6 +27,13 @@ const StationDetail = () => {
         }
     ];
 
+    const iconsData = [
+        { text: 'Inversión', icon: <p>1</p> },
+        { text: 'Garantías', icon: <p>2</p> },
+        { text: 'Aprobación', icon: <p>3</p> },
+        // ... más ítems
+    ];
+
 
     const { selectedStation } = useStation();
 
@@ -33,6 +42,11 @@ const StationDetail = () => {
         return <NoStationSelected />
     }
 
+    const [showMore, setShowMore] = useState(false);
+
+    const handleToggle = () => {
+        setShowMore(!showMore);
+    };
 
     // Mostrar la información de la estación seleccionada
     return (
@@ -66,6 +80,14 @@ const StationDetail = () => {
                     consumptionDate={selectedStation.consumption_cut}
                 />
                 <TimeVolDetail progressData={progressData} />
+
+
+                <div className="container mx-auto px-4 py-2">
+                    <ScrollableIconRow items={iconsData} />
+                </div>
+                <ButtonShowMore showMore={showMore} onClick={handleToggle} />
+
+
                 <h2>Selected Station Details</h2>
                 <ul>
                     <li>Name: {selectedStation.eds_name}</li>
@@ -74,6 +96,7 @@ const StationDetail = () => {
                     <li>Percentage: {selectedStation.percentage}%</li>
                     <li>Status: <span className={selectedStation.status === "Activo" ? "text-green-500" : "text-red-500"}>{selectedStation.status}</span></li>
                 </ul>
+
             </div>
 
         </div>

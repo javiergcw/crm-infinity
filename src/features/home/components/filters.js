@@ -1,7 +1,7 @@
 import React from 'react'
-import FilterButton from './buttons/filter_button'
-import SearchWithSelect from './buttons/search_with_select'
-import CleanSearch from './buttons/clean_search'
+import FilterButton from './button/filter_button'
+import SearchWithSelect from './button/search_with_select'
+import CleanSearch from './button/clean_search'
 
 const Filters = () => {
     return (
