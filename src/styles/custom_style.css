@@ -10,6 +10,11 @@
         @apply text-xl font-heading text-ui-blue-900;
     }
 
+    .s1-medium-blue {
+        @apply text-xs font-medium font-heading text-ui-blue-800;
+
+    }
+
     .small-blue-semibold {
         @apply text-xs font-heading text-ui-blue-800 font-semibold;
     }

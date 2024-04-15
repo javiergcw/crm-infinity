@@ -20,7 +20,7 @@ const TitleSubtitleDetail = ({ title, status, buttonLabel, contractNumber, consu
                     <p className="s1-medium-gray">Contrato N° </p>
                     <p className="small-normal-black font-semibold">{contractNumber}</p>
                 </div>
-                <div className="flex-col w-3/6 text-end">
+                <div className="flex-col w-3/6 text-end mb-3">
                     <p className="s2-medium-gray">Consumo traído al corte de</p>
                     <p className="s2-medium-gray">{consumptionDate}</p>
                 </div>
