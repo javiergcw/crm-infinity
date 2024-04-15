@@ -11,7 +11,7 @@
     }
 
     .small-blue-semibold {
-        @apply text-xs font-heading text-ui-blue-800 font-semibold; 
+        @apply text-xs font-heading text-ui-blue-800 font-semibold;
     }
 
     /* gray */
@@ -23,11 +23,16 @@
         @apply text-sm font-semibold font-heading text-ui-gray-300;
     }
 
+    .h2-semibold-gray {
+        @apply text-2xl font-semibold font-heading text-ui-gray-300;
+    }
+
 
     .s2-medium-gray {
         @apply text-sm font-medium font-heading text-ui-gray-dark-300;
 
     }
+
     .s1-medium-gray {
         @apply text-xs font-medium font-heading text-ui-gray-dark-300;
 
@@ -54,6 +59,10 @@
         @apply h-screen;
         height: calc(100vh - 4rem);
         /* Altura de la pantalla menos el alto de la barra de navegación */
+    }
+
+    .h-910 {
+        height: 90%;
     }
 
 }

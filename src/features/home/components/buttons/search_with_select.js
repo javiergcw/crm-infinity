@@ -25,7 +25,7 @@ const SearchWithSelect = () => {
                 </svg>
             </div>
 
-            <div className="flex items-center px-2 s1-medium-gray rounded-r-lg cursor-pointer">
+            <div className="flex items-center px-2 s2-medium-gray rounded-r-lg cursor-pointer">
                 <span>Seleccionar</span>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     fill="none"

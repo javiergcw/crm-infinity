@@ -1,0 +1,555 @@
+{
+  "zone": "Zona Atlántico - Magdalena",
+  "city": {
+    "Barranquilla": [
+      {
+        "eds_name": "PDS Estación Calle 84",
+        "com": "Com. Industrial",
+        "sc": "SC-22-03",
+        "percentage": 68,
+        "status": "Activo",
+        "contract_number": "SC-22-192",
+        "consumption_cut": "30/10/23",
+        "by_time": {
+          "compliance_progress": "50",
+          "reinsurance_progress": "45",
+          "end_contract": "01/01/25"
+        },
+        "by_volume": {
+          "compliance_progress": "50",
+          "reinsurance_progress": "45",
+          "consumed_volume": 123456789
+        },
+        "details_client": {
+          "cod_sicom": 987654,
+          "business_name": "Empresa XYZ",
+          "nit": 1234567890,
+          "type_contract": "Permanente",
+          "contract_class": "Clase A",
+          "group_family": "Grupo 1",
+          "date_subscription": "01/01/20",
+          "date_start": "01/02/20",
+          "date_expiration": "01/01/30",
+          "term_time": "120 meses",
+          "term_vol": 99999,
+          "estimated_monthly_gallonage": 1234567.99,
+          "credit_quota": 2345678,
+          "day_grace": 12,
+          "deadlines_day": 30
+        }
+      },
+      {
+        "eds_name": "PDS Estación Calle 85",
+        "com": "Com. Residencial",
+        "sc": "SC-22-06",
+        "percentage": 70,
+        "status": "Activo",
+        "contract_number": "SC-22-193",
+        "consumption_cut": "29/10/23",
+        "by_time": {
+          "compliance_progress": "60",
+          "reinsurance_progress": "55",
+          "end_contract": "02/01/25"
+        },
+        "by_volume": {
+          "compliance_progress": "60",
+          "reinsurance_progress": "55",
+          "consumed_volume": 123000000
+        },
+        "details_client": {
+          "cod_sicom": 987655,
+          "business_name": "Empresa ABC",
+          "nit": 1234567891,
+          "type_contract": "Temporal",
+          "contract_class": "Clase B",
+          "group_family": "Grupo 2",
+          "date_subscription": "02/01/20",
+          "date_start": "02/02/20",
+          "date_expiration": "02/01/30",
+          "term_time": "110 meses",
+          "term_vol": 99500,
+          "estimated_monthly_gallonage": 1200000.00,
+          "credit_quota": 2000000,
+          "day_grace": 10,
+          "deadlines_day": 25
+        }
+      },
+      {
+        "eds_name": "PDS Estación Calle 86",
+        "com": "Com. Mixto",
+        "sc": "SC-22-07",
+        "percentage": 65,
+        "status": "Inactivo",
+        "contract_number": "SC-22-194",
+        "consumption_cut": "28/10/23",
+        "by_time": {
+          "compliance_progress": "40",
+          "reinsurance_progress": "35",
+          "end_contract": "03/01/25"
+        },
+        "by_volume": {
+          "compliance_progress": "40",
+          "reinsurance_progress": "35",
+          "consumed_volume": 122500000
+        },
+        "details_client": {
+          "cod_sicom": 987656,
+          "business_name": "Empresa DEF",
+          "nit": 1234567892,
+          "type_contract": "Indefinido",
+          "contract_class": "Clase C",
+          "group_family": "Grupo 3",
+          "date_subscription": "03/01/20",
+          "date_start": "03/02/20",
+          "date_expiration": "03/01/30",
+          "term_time": "100 meses",
+          "term_vol": 99000,
+          "estimated_monthly_gallonage": 1100000.00,
+          "credit_quota": 2100000,
+          "day_grace": 15,
+          "deadlines_day": 20
+        }
+      }
+    ],
+    "Santa Marta": [
+      {
+        "eds_name": "PDS Estación Calle 10",
+        "com": "Com. Industrial",
+        "sc": "SC-22-03",
+        "percentage": 68,
+        "status": "Activo",
+        "contract_number": "SC-22-192",
+        "consumption_cut": "30/10/23",
+        "by_time": {
+          "compliance_progress": "50",
+          "reinsurance_progress": "45",
+          "end_contract": "01/01/25"
+        },
+        "by_volume": {
+          "compliance_progress": "50",
+          "reinsurance_progress": "45",
+          "consumed_volume": 123456789
+        },
+        "details_client": {
+          "cod_sicom": 987654,
+          "business_name": "Empresa XYZ",
+          "nit": 1234567890,
+          "type_contract": "Permanente",
+          "contract_class": "Clase A",
+          "group_family": "Grupo 1",
+          "date_subscription": "01/01/20",
+          "date_start": "01/02/20",
+          "date_expiration": "01/01/30",
+          "term_time": "120 meses",
+          "term_vol": 99999,
+          "estimated_monthly_gallonage": 1234567.99,
+          "credit_quota": 2345678,
+          "day_grace": 12,
+          "deadlines_day": 30
+        }
+      },
+      {
+        "eds_name": "PDS Estación Calle 20",
+        "com": "Com. Residencial",
+        "sc": "SC-22-06",
+        "percentage": 70,
+        "status": "Activo",
+        "contract_number": "SC-22-193",
+        "consumption_cut": "29/10/23",
+        "by_time": {
+          "compliance_progress": "60",
+          "reinsurance_progress": "55",
+          "end_contract": "02/01/25"
+        },
+        "by_volume": {
+          "compliance_progress": "60",
+          "reinsurance_progress": "55",
+          "consumed_volume": 123000000
+        },
+        "details_client": {
+          "cod_sicom": 987655,
+          "business_name": "Empresa ABC",
+          "nit": 1234567891,
+          "type_contract": "Temporal",
+          "contract_class": "Clase B",
+          "group_family": "Grupo 2",
+          "date_subscription": "02/01/20",
+          "date_start": "02/02/20",
+          "date_expiration": "02/01/30",
+          "term_time": "110 meses",
+          "term_vol": 99500,
+          "estimated_monthly_gallonage": 1200000.00,
+          "credit_quota": 2000000,
+          "day_grace": 10,
+          "deadlines_day": 25
+        }
+      },
+      {
+        "eds_name": "PDS Estación Calle 30",
+        "com": "Com. Mixto",
+        "sc": "SC-22-07",
+        "percentage": 65,
+        "status": "Inactivo",
+        "contract_number": "SC-22-194",
+        "consumption_cut": "28/10/23",
+        "by_time": {
+          "compliance_progress": "40",
+          "reinsurance_progress": "35",
+          "end_contract": "03/01/25"
+        },
+        "by_volume": {
+          "compliance_progress": "40",
+          "reinsurance_progress": "35",
+          "consumed_volume": 122500000
+        },
+        "details_client": {
+          "cod_sicom": 987656,
+          "business_name": "Empresa DEF",
+          "nit": 1234567892,
+          "type_contract": "Indefinido",
+          "contract_class": "Clase C",
+          "group_family": "Grupo 3",
+          "date_subscription": "03/01/20",
+          "date_start": "03/02/20",
+          "date_expiration": "03/01/30",
+          "term_time": "100 meses",
+          "term_vol": 99000,
+          "estimated_monthly_gallonage": 1100000.00,
+          "credit_quota": 2100000,
+          "day_grace": 15,
+          "deadlines_day": 20
+        }
+      }
+    ],
+    "Cartagena": [
+      {
+        "eds_name": "PDS Estación Calle 40",
+        "com": "Com. Industrial",
+        "sc": "SC-22-03",
+        "percentage": 68,
+        "status": "Activo",
+        "contract_number": "SC-22-192",
+        "consumption_cut": "30/10/23",
+        "by_time": {
+          "compliance_progress": "50",
+          "reinsurance_progress": "45",
+          "end_contract": "01/01/25"
+        },
+        "by_volume": {
+          "compliance_progress": "50",
+          "reinsurance_progress": "45",
+          "consumed_volume": 123456789
+        },
+        "details_client": {
+          "cod_sicom": 987654,
+          "business_name": "Empresa XYZ",
+          "nit": 1234567890,
+          "type_contract": "Permanente",
+          "contract_class": "Clase A",
+          "group_family": "Grupo 1",
+          "date_subscription": "01/01/20",
+          "date_start": "01/02/20",
+          "date_expiration": "01/01/30",
+          "term_time": "120 meses",
+          "term_vol": 99999,
+          "estimated_monthly_gallonage": 1234567.99,
+          "credit_quota": 2345678,
+          "day_grace": 12,
+          "deadlines_day": 30
+        }
+      },
+      {
+        "eds_name": "PDS Estación Calle 50",
+        "com": "Com. Residencial",
+        "sc": "SC-22-06",
+        "percentage": 70,
+        "status": "Activo",
+        "contract_number": "SC-22-193",
+        "consumption_cut": "29/10/23",
+        "by_time": {
+          "compliance_progress": "60",
+          "reinsurance_progress": "55",
+          "end_contract": "02/01/25"
+        },
+        "by_volume": {
+          "compliance_progress": "60",
+          "reinsurance_progress": "55",
+          "consumed_volume": 123000000
+        },
+        "details_client": {
+          "cod_sicom": 987655,
+          "business_name": "Empresa ABC",
+          "nit": 1234567891,
+          "type_contract": "Temporal",
+          "contract_class": "Clase B",
+          "group_family": "Grupo 2",
+          "date_subscription": "02/01/20",
+          "date_start": "02/02/20",
+          "date_expiration": "02/01/30",
+          "term_time": "110 meses",
+          "term_vol": 99500,
+          "estimated_monthly_gallonage": 1200000.00,
+          "credit_quota": 2000000,
+          "day_grace": 10,
+          "deadlines_day": 25
+        }
+      },
+      {
+        "eds_name": "PDS Estación Calle 60",
+        "com": "Com. Mixto",
+        "sc": "SC-22-07",
+        "percentage": 65,
+        "status": "Inactivo",
+        "contract_number": "SC-22-194",
+        "consumption_cut": "28/10/23",
+        "by_time": {
+          "compliance_progress": "40",
+          "reinsurance_progress": "35",
+          "end_contract": "03/01/25"
+        },
+        "by_volume": {
+          "compliance_progress": "40",
+          "reinsurance_progress": "35",
+          "consumed_volume": 122500000
+        },
+        "details_client": {
+          "cod_sicom": 987656,
+          "business_name": "Empresa DEF",
+          "nit": 1234567892,
+          "type_contract": "Indefinido",
+          "contract_class": "Clase C",
+          "group_family": "Grupo 3",
+          "date_subscription": "03/01/20",
+          "date_start": "03/02/20",
+          "date_expiration": "03/01/30",
+          "term_time": "100 meses",
+          "term_vol": 99000,
+          "estimated_monthly_gallonage": 1100000.00,
+          "credit_quota": 2100000,
+          "day_grace": 15,
+          "deadlines_day": 20
+        }
+      }
+    ],
+    "Valledupar": [
+      {
+        "eds_name": "PDS Estación Calle 40",
+        "com": "Com. Industrial",
+        "sc": "SC-22-03",
+        "percentage": 68,
+        "status": "Activo",
+        "contract_number": "SC-22-192",
+        "consumption_cut": "30/10/23",
+        "by_time": {
+          "compliance_progress": "50",
+          "reinsurance_progress": "45",
+          "end_contract": "01/01/25"
+        },
+        "by_volume": {
+          "compliance_progress": "50",
+          "reinsurance_progress": "45",
+          "consumed_volume": 123456789
+        },
+        "details_client": {
+          "cod_sicom": 987654,
+          "business_name": "Empresa XYZ",
+          "nit": 1234567890,
+          "type_contract": "Permanente",
+          "contract_class": "Clase A",
+          "group_family": "Grupo 1",
+          "date_subscription": "01/01/20",
+          "date_start": "01/02/20",
+          "date_expiration": "01/01/30",
+          "term_time": "120 meses",
+          "term_vol": 99999,
+          "estimated_monthly_gallonage": 1234567.99,
+          "credit_quota": 2345678,
+          "day_grace": 12,
+          "deadlines_day": 30
+        }
+      },
+      {
+        "eds_name": "PDS Estación Calle 50",
+        "com": "Com. Residencial",
+        "sc": "SC-22-06",
+        "percentage": 70,
+        "status": "Activo",
+        "contract_number": "SC-22-193",
+        "consumption_cut": "29/10/23",
+        "by_time": {
+          "compliance_progress": "60",
+          "reinsurance_progress": "55",
+          "end_contract": "02/01/25"
+        },
+        "by_volume": {
+          "compliance_progress": "60",
+          "reinsurance_progress": "55",
+          "consumed_volume": 123000000
+        },
+        "details_client": {
+          "cod_sicom": 987655,
+          "business_name": "Empresa ABC",
+          "nit": 1234567891,
+          "type_contract": "Temporal",
+          "contract_class": "Clase B",
+          "group_family": "Grupo 2",
+          "date_subscription": "02/01/20",
+          "date_start": "02/02/20",
+          "date_expiration": "02/01/30",
+          "term_time": "110 meses",
+          "term_vol": 99500,
+          "estimated_monthly_gallonage": 1200000.00,
+          "credit_quota": 2000000,
+          "day_grace": 10,
+          "deadlines_day": 25
+        }
+      },
+      {
+        "eds_name": "PDS Estación Calle 60",
+        "com": "Com. Mixto",
+        "sc": "SC-22-07",
+        "percentage": 65,
+        "status": "Inactivo",
+        "contract_number": "SC-22-194",
+        "consumption_cut": "28/10/23",
+        "by_time": {
+          "compliance_progress": "40",
+          "reinsurance_progress": "35",
+          "end_contract": "03/01/25"
+        },
+        "by_volume": {
+          "compliance_progress": "40",
+          "reinsurance_progress": "35",
+          "consumed_volume": 122500000
+        },
+        "details_client": {
+          "cod_sicom": 987656,
+          "business_name": "Empresa DEF",
+          "nit": 1234567892,
+          "type_contract": "Indefinido",
+          "contract_class": "Clase C",
+          "group_family": "Grupo 3",
+          "date_subscription": "03/01/20",
+          "date_start": "03/02/20",
+          "date_expiration": "03/01/30",
+          "term_time": "100 meses",
+          "term_vol": 99000,
+          "estimated_monthly_gallonage": 1100000.00,
+          "credit_quota": 2100000,
+          "day_grace": 15,
+          "deadlines_day": 20
+        }
+      }
+    ],
+    "Riohacha": [
+      {
+        "eds_name": "PDS Estación Calle 40",
+        "com": "Com. Industrial",
+        "sc": "SC-22-03",
+        "percentage": 68,
+        "status": "Activo",
+        "contract_number": "SC-22-192",
+        "consumption_cut": "30/10/23",
+        "by_time": {
+          "compliance_progress": "50",
+          "reinsurance_progress": "45",
+          "end_contract": "01/01/25"
+        },
+        "by_volume": {
+          "compliance_progress": "50",
+          "reinsurance_progress": "45",
+          "consumed_volume": 123456789
+        },
+        "details_client": {
+          "cod_sicom": 987654,
+          "business_name": "Empresa XYZ",
+          "nit": 1234567890,
+          "type_contract": "Permanente",
+          "contract_class": "Clase A",
+          "group_family": "Grupo 1",
+          "date_subscription": "01/01/20",
+          "date_start": "01/02/20",
+          "date_expiration": "01/01/30",
+          "term_time": "120 meses",
+          "term_vol": 99999,
+          "estimated_monthly_gallonage": 1234567.99,
+          "credit_quota": 2345678,
+          "day_grace": 12,
+          "deadlines_day": 30
+        }
+      },
+      {
+        "eds_name": "PDS Estación Calle 50",
+        "com": "Com. Residencial",
+        "sc": "SC-22-06",
+        "percentage": 70,
+        "status": "Activo",
+        "contract_number": "SC-22-193",
+        "consumption_cut": "29/10/23",
+        "by_time": {
+          "compliance_progress": "60",
+          "reinsurance_progress": "55",
+          "end_contract": "02/01/25"
+        },
+        "by_volume": {
+          "compliance_progress": "60",
+          "reinsurance_progress": "55",
+          "consumed_volume": 123000000
+        },
+        "details_client": {
+          "cod_sicom": 987655,
+          "business_name": "Empresa ABC",
+          "nit": 1234567891,
+          "type_contract": "Temporal",
+          "contract_class": "Clase B",
+          "group_family": "Grupo 2",
+          "date_subscription": "02/01/20",
+          "date_start": "02/02/20",
+          "date_expiration": "02/01/30",
+          "term_time": "110 meses",
+          "term_vol": 99500,
+          "estimated_monthly_gallonage": 1200000.00,
+          "credit_quota": 2000000,
+          "day_grace": 10,
+          "deadlines_day": 25
+        }
+      },
+      {
+        "eds_name": "PDS Estación Calle 60",
+        "com": "Com. Mixto",
+        "sc": "SC-22-07",
+        "percentage": 65,
+        "status": "Inactivo",
+        "contract_number": "SC-22-194",
+        "consumption_cut": "28/10/23",
+        "by_time": {
+          "compliance_progress": "40",
+          "reinsurance_progress": "35",
+          "end_contract": "03/01/25"
+        },
+        "by_volume": {
+          "compliance_progress": "40",
+          "reinsurance_progress": "35",
+          "consumed_volume": 122500000
+        },
+        "details_client": {
+          "cod_sicom": 987656,
+          "business_name": "Empresa DEF",
+          "nit": 1234567892,
+          "type_contract": "Indefinido",
+          "contract_class": "Clase C",
+          "group_family": "Grupo 3",
+          "date_subscription": "03/01/20",
+          "date_start": "03/02/20",
+          "date_expiration": "03/01/30",
+          "term_time": "100 meses",
+          "term_vol": 99000,
+          "estimated_monthly_gallonage": 1100000.00,
+          "credit_quota": 2100000,
+          "day_grace": 15,
+          "deadlines_day": 20
+        }
+      }
+    ]
+  }
+}

@@ -7,7 +7,7 @@ import UserProfile from './container/user_container';
 const Navbar = () => {
     return (
         <nav className="bg-white text-gray-700 border-t-2 border-b-2 py-2 border-ui-gray-100 h-16 w-full ">
-            <div className="container mx-auto flex items-center justify-between">
+            <div className="mx-4 flex items-center justify-between">
                 <div className='flex flex-row items-center'>
                     <NavIconLink
                         src={ImagesPath.house}

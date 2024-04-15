@@ -27,7 +27,7 @@ const UserContainer = ({ name, role, imageUrl }) => {
 
     return (
         <div className="cursor-pointer relative inline-block text-left" ref={toggleRef}>
-            <div onClick={toggleMenu} className="flex items-center bg-white p-4 border-l-2 border-ui-light-gray-300 h-10 cursor-pointer">
+            <div onClick={toggleMenu} className="flex items-center bg-white py-4 pl-4 border-l-2 border-ui-light-gray-300 h-10 cursor-pointer">
                 <Image src={ImagesPath.verticalDots} alt="Settings icon" width={20} height={20} className="w-5 h-5 object-contain" />
                 <div className="flex-grow mx-4 text-right">
                     <div className="p-bold-gray">{name}</div>

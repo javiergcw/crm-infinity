@@ -8,14 +8,12 @@ const Filters = () => {
         <>
             <p className='s1-medium-gray font-bold pb-3'>
                 Filtrado
-
             </p>
             <div className="flex items-center space-x-2">
                 <FilterButton />
                 <SearchWithSelect />
                 <CleanSearch />
             </div>
-
         </>
     )
 }
