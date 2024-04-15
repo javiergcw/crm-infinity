@@ -7,6 +7,7 @@ export const ImagesPath = {
     gas: '/icons/gas.svg',
     onePeople: '/icons/one_people.svg',
     logOut: '/icons/log_out.svg',
+    map: '/images/map.png',
     //icono2: '/path/to/your/icon2.svg',
     // más paths de íconos
 };

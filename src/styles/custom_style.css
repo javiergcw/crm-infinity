@@ -46,6 +46,14 @@
         @apply text-xs font-medium font-heading text-ui-gray-dark-300;
 
     }
+    .s1-small-gray {
+        @apply text-2xs font-medium font-heading text-ui-gray-dark-300;
+
+    }
+
+    .h2-gray-bold {
+        @apply text-2xl font-bold font-heading text-ui-gray-700;
+    }
 
 
     /* white */

@@ -21,6 +21,7 @@ module.exports = {
     'ui-light-gray-300': '#DDE5EB',
     'ui-gray': '#707070',
     'ui-gray-dark-300': '#949494',
+    'ui-gray-700': '#292929',
 
     // red colors
     'ui-red-500': '#EE4266',
