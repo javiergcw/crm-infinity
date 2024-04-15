@@ -9,6 +9,8 @@ module.exports = {
     'ui-blue-90': '#E9ECFB',
     'ui-blue-100': '#F6F8FB',
     'ui-blue-200': '#D3D9F8',
+    'ui-blue-300': '#ADBAFA',
+    'ui-blue-400': '#E9ECFA',
     'ui-blue-700': '#5E79FF',
     'ui-blue-800': '#4564FF',
     'ui-blue-900': "#3C57E0",

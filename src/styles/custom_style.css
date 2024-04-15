@@ -46,6 +46,7 @@
         @apply text-xs font-medium font-heading text-ui-gray-dark-300;
 
     }
+
     .s1-small-gray {
         @apply text-2xs font-medium font-heading text-ui-gray-dark-300;
 
@@ -136,6 +137,11 @@
         border-color: #4564FF;
         border: 1px solid #4564FF;
     }
+
+    .no-padding {
+        padding: 0 !important;
+    }
+
 
 
 }

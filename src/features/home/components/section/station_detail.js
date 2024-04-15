@@ -4,8 +4,27 @@ import Link from 'next/link';
 import { useStation } from '../../hooks/station_context';
 import { ImagesPath } from '@/utils/images_path';
 import TitleSubtitleDetail from './title_subtitle_detail';
+import TimeVolDetail from './time_vol_detail';
 
 const StationDetail = () => {
+
+    const progressData = [
+        {
+            id: "progress1",
+            title: "Progreso de cumplimiento",
+            percentageComplete: "64%",
+            percentageRemaining: "-36%"
+        },
+        {
+            id: "progress2",
+            title: "Progreso de reaseguramiento",
+            percentageComplete: "30%",
+            percentageRemaining: "-25%",
+            contractEndDate: "20/10/2015"
+        }
+    ];
+
+
     const { selectedStation } = useStation();
 
     if (!selectedStation) {
@@ -44,8 +63,7 @@ const StationDetail = () => {
                     contractNumber={selectedStation.contract_number}
                     consumptionDate={selectedStation.consumption_cut}
                 />
-
-                
+                <TimeVolDetail progressData={progressData} />
             </div>
             <h2>Selected Station Details</h2>
             <ul>
