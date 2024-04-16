@@ -28,10 +28,7 @@ const ContainerContractDetail = ({ title, value }) => (
 // Subcomponente para el botón de expandir/colapsar
 const ExpandButton = ({ expanded, toggle }) => (
   <button
-    onClick={(e) => {
-      e.stopPropagation(); // Esto detiene la propagación del evento al contenedor principal
-      toggle();
-    }}
+    onClick={toggle}
     className="mt-4 bg-white text-black border border-gray-300 rounded-md transition duration-200 ease-in-out py-1 px-5"
     aria-expanded={expanded}
   >

@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 const LayoutWallet = ({ isDivided, contentOne, contentTwo, contentThree }) => {
 
-    const contentOneWidth = 'w-1/4'; // aproximadamente 58.333%
-    const contentTwoWidth = 'w-3/4'; // aproximadamente 25% o 33.333%
+    const contentOneWidth = 'w-1/4';
+    const contentTwoWidth = 'w-3/4';
 
     return (
         <div className="flex w-full h-main overflow-hidden">
