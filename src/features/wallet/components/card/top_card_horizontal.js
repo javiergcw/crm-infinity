@@ -2,7 +2,7 @@ import React from 'react';
 import ContainerContractText from '../container/container_client_text';
 import ContainerMainText from '../container/container_main_text';
 import ContainerStatusText from '../container/container_status_text';
-import ContainerRectangleText from '../container/container_rectangle_text';
+import ContainerRectangleText from '../../../../components/container/container_rectangle_text';
 
 const TopCardHorizontal = () => {
     return (

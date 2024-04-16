@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const LayoutWallet = ({ isDivided, contentOne, contentTwo, contentThree }) => {
+const LayoutWallet = ({  contentOne, contentTwo,  }) => {
 
     const contentOneWidth = 'w-1/4';
     const contentTwoWidth = 'w-3/4';
@@ -21,10 +21,8 @@ const LayoutWallet = ({ isDivided, contentOne, contentTwo, contentThree }) => {
 };
 
 LayoutWallet.propTypes = {
-    isDivided: PropTypes.bool.isRequired,
     contentOne: PropTypes.node.isRequired,
     contentTwo: PropTypes.node.isRequired,
-    contentThree: PropTypes.node,
 };
 
 export default LayoutWallet;

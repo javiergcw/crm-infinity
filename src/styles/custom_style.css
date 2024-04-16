@@ -19,6 +19,9 @@
         @apply text-xs font-heading text-ui-blue-800 font-semibold;
     }
 
+    .h3-blue-semibold {
+        @apply text-xl font-heading text-ui-blue-800 font-semibold;
+    }
 
     .h2-blue-semibold {
         @apply text-2xl font-heading text-ui-blue-800 font-semibold;
@@ -60,6 +63,10 @@
         @apply text-sm font-semibold font-heading text-ui-gray-300;
     }
 
+    .h3-semibold-gray {
+        @apply text-xl font-semibold font-heading text-ui-gray-300;
+    }
+
     .h2-semibold-gray {
         @apply text-2xl font-semibold font-heading text-ui-gray-300;
     }
@@ -91,6 +98,14 @@
     }
 
     /* black */
+
+    .h2-bold-black {
+        @apply text-2xl font-heading text-ui-black-native font-bold
+    }
+
+    .h3-bold-black {
+        @apply text-xl font-heading text-ui-black-native font-bold
+    }
 
     .normal-semibold-black {
         @apply text-sm font-heading text-ui-black-native font-medium
@@ -198,6 +213,10 @@
     .hide-scrollbar {
         -ms-overflow-style: none;
         scrollbar-width: none;
+    }
+
+    .min-h-90vh {
+        min-height: 92.8vh;
     }
 
 
