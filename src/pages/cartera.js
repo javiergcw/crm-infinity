@@ -5,6 +5,7 @@ import ComeBack from '@/components/come_back';
 import TitleContract from '@/features/wallet/components/tlite/title_contract';
 import CardContract from '@/features/wallet/components/card/card_contract';
 import '../app/globals.css'
+import DownCardHorizontal from '@/features/wallet/components/card/down_card_horizontal';
 
 
 const Cartera = () => {
@@ -84,8 +85,20 @@ const Cartera = () => {
                     </div>
                 }
                 contentTwo={
-                    <div className="w-full h-full bg-white rounded-xl border-2 border-ui-gray-line px-3 pt-7">
-                        {/* Contenido adicional aquí */}
+                    <div className="w-full h-full bg-white rounded-xl border-2 border-ui-gray-line  pt-2 grid"
+                        style={{ gridTemplateRows: '30% 10% 50% 10%' }}>
+                        <div className="bg-red-200 flex items-center justify-center h-full">
+                            Contenedor 1
+                        </div>
+                        <div className="bg-blue-200 flex items-center justify-center h-full">
+                            Contenedor 2
+                        </div>
+                        <div className="bg-green-200 flex items-center justify-center h-full">
+                            Contenedor 3
+                        </div>
+                        <div className=" justify-center h-full">
+                            <DownCardHorizontal />
+                        </div>
                     </div>
                 }
             />

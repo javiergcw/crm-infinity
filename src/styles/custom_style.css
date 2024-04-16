@@ -19,6 +19,11 @@
         @apply text-xs font-heading text-ui-blue-800 font-semibold;
     }
 
+
+    .h2-blue-semibold {
+        @apply text-2xl font-heading text-ui-blue-800 font-semibold;
+    }
+
     /* gray */
 
     .h3-gray-500 {
@@ -91,6 +96,10 @@
         @apply text-sm font-heading text-ui-black-native font-medium
     }
 
+    .up-semibold-black {
+        @apply text-lg font-heading text-ui-black-native font-medium
+    }
+
     .super-small-normal-black {
         @apply text-2xs font-heading text-ui-black
     }
@@ -102,6 +111,7 @@
     .h3-normal-black {
         @apply text-xl font-heading text-ui-black
     }
+
     .h2-normal-black {
         @apply text-2xl font-heading text-ui-black
     }
