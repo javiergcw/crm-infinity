@@ -6,6 +6,7 @@ import TitleContract from '@/features/wallet/components/tlite/title_contract';
 import CardContract from '@/features/wallet/components/card/card_contract';
 import '../app/globals.css'
 import DownCardHorizontal from '@/features/wallet/components/card/down_card_horizontal';
+import TopCardHorizontal from '@/features/wallet/components/card/top_card_horizontal';
 
 
 const Cartera = () => {
@@ -86,9 +87,9 @@ const Cartera = () => {
                 }
                 contentTwo={
                     <div className="w-full h-full bg-white rounded-xl border-2 border-ui-gray-line  pt-2 grid"
-                        style={{ gridTemplateRows: '30% 10% 50% 10%' }}>
-                        <div className="bg-red-200 flex items-center justify-center h-full">
-                            Contenedor 1
+                        style={{ gridTemplateRows: '20% 10% 60% 10%' }}>
+                        <div className=" flex items-center justify-center h-full">
+                            <TopCardHorizontal />
                         </div>
                         <div className="bg-blue-200 flex items-center justify-center h-full">
                             Contenedor 2
