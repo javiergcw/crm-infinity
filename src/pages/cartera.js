@@ -8,6 +8,9 @@ import '../app/globals.css'
 import DownCardHorizontal from '@/features/wallet/components/card/down_card_horizontal';
 import TopCardHorizontal from '@/features/wallet/components/card/top_card_horizontal';
 import SectionMenuWallet from '@/features/wallet/components/section/section_menu_wallet';
+import ViewAllWallet from '@/features/wallet/components/section/all_wallet/view-all-wallet';
+import ViewCurrentWallet from '@/features/wallet/components/section/current_wallet/view-current-wallet';
+import ViewVolumenBuy from '@/features/wallet/components/section/volumen_buy/view-volumen-buy';
 
 
 const Cartera = () => {
@@ -95,8 +98,10 @@ const Cartera = () => {
                         <div className="border-t-2 border-b-2 border-ui-gray-line flex items-center justify-center h-full">
                             <SectionMenuWallet />
                         </div>
-                        <div className="bg-green-200 flex items-center justify-center h-full">
-                            Contenedor 3
+                        <div className="flex px-4 py-5">
+                            <ViewVolumenBuy />
+                            {/* <ViewCurrentWallet /> */}
+                            {/* <ViewAllWallet /> */}
                         </div>
                         <div className=" justify-center h-full">
                             <DownCardHorizontal />

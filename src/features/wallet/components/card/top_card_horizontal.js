@@ -20,11 +20,9 @@ const TopCardHorizontal = () => {
                         />
                     </div>
                     <div className="">
-
                         <ContainerStatusText
                             title="Estado de venta"
                             status="ACTIVO"
-
                         />
                     </div>
                     <div className="">
