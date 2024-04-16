@@ -76,6 +76,11 @@
     }
 
     /* black */
+
+    .super-small-normal-black {
+        @apply text-2xs font-heading text-ui-black
+    }
+
     .small-normal-black {
         @apply text-sm font-heading text-ui-black
     }

@@ -22,7 +22,7 @@ const NoStationSelected = () => {
                 />
             </svg>
             <h2 className="text-xl text-center font-semibold text-gray-800 mb-4">No se ha seleccionado una estación</h2>
-            <p className="text-gray-600 text-ce">Porfavor selecciona una estación en la tabla para visualizar los detalles</p>
+            <p className="text-gray-600 text-center">Porfavor selecciona una estación en la tabla para visualizar los detalles</p>
         </div>
     );
 };
