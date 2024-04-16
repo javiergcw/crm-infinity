@@ -7,6 +7,7 @@ import CardContract from '@/features/wallet/components/card/card_contract';
 import '../app/globals.css'
 import DownCardHorizontal from '@/features/wallet/components/card/down_card_horizontal';
 import TopCardHorizontal from '@/features/wallet/components/card/top_card_horizontal';
+import SectionMenuWallet from '@/features/wallet/components/section/section_menu_wallet';
 
 
 const Cartera = () => {
@@ -87,12 +88,12 @@ const Cartera = () => {
                 }
                 contentTwo={
                     <div className="w-full h-full bg-white rounded-xl border-2 border-ui-gray-line  pt-2 grid"
-                        style={{ gridTemplateRows: '20% 10% 60% 10%' }}>
+                        style={{ gridTemplateRows: '20% 5% 65% 10%' }}>
                         <div className=" flex items-center justify-center h-full">
                             <TopCardHorizontal />
                         </div>
-                        <div className="bg-blue-200 flex items-center justify-center h-full">
-                            Contenedor 2
+                        <div className="border-t-2 border-b-2 border-ui-gray-line flex items-center justify-center h-full">
+                            <SectionMenuWallet />
                         </div>
                         <div className="bg-green-200 flex items-center justify-center h-full">
                             Contenedor 3
