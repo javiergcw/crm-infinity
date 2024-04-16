@@ -25,58 +25,36 @@ const ViewVolumenBuy = () => {
     };
 
     return (
-        <div className=' flex flex-col h-full'>
-            <div className="grid grid-cols-7 gap-4 w-full py-4">
-                <div className="w-full">
+        <div className='flex flex-col h-full w-auto overflow-hidden'>
+            <div className="grid grid-cols-2 md:grid-cols-7 gap-2 md:gap-4 w-full py-4">
+                <div className="col-span-2 md:col-auto">
                     <p className='small-gray-two'>
                         EDS
                     </p>
                     <ButtonStandard text="Servi. omega" className="" arrow={true} />
-
                 </div>
-                <div className="w-full">
+                <div className="col-span-2 md:col-auto">
                     <p className='small-gray-two'>
                         Años
                     </p>
                     <ButtonStandard text="3 años" className="" arrow={true} />
                 </div>
-                <div className="">
-
-                </div>
-                <div>
-                    <p className='text-white small-gray-two'>
-                        asd
-                    </p>
+                <div className="col-span-2 md:col-auto">
                     <div className="flex flex-row space-x-2">
                         <ButtonStandard text="" children={<Image src={ImagesPath.graphic} alt="graphic icon" width={18} height={18} />} className="flex-shrink-0" arrow={false} />
                         <ButtonStandard text="Comparativo" className="" arrow={false} />
-
                     </div>
                 </div>
-                <div className="">
-                    <p className='small-gray-two text-white'>a
-
-                    </p>
-
-                </div>
-                <div className="">
-                    <p className='small-gray-two'>
-                        Total volumen
-                    </p>
+                <div className="col-span-1 md:col-auto">
                     <ButtonStandard text="$ 155.228.999" className="font-semibold" arrow={false} />
-
                 </div>
-                <div className="">
-                    <p className='small-gray-two'>
-                        Saldo inicial
-                    </p>
+                <div className="col-span-1 md:col-auto">
                     <ButtonStandard text="$ 155.228.999" className="font-semibold" arrow={false} />
-
                 </div>
-
-
             </div>
-            <CustomTable data={tableData} />
+            <div className="overflow-auto">
+                <CustomTable data={tableData} />
+            </div>
         </div>
     )
 }

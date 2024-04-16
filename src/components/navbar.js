@@ -6,8 +6,8 @@ import UserProfile from './container/user_container';
 
 const Navbar = () => {
     return (
-        <nav className="bg-white text-gray-700 border-t-2 border-b-2 py-2 border-ui-gray-line h-16 w-full ">
-            <div className="mx-4 flex items-center justify-between">
+        <nav className="bg-white text-gray-700 border-t-2 border-b-2 py-2 border-ui-gray-line md:h-16 w-full">
+            <div className="mx-2 md:mx-4 flex flex-col md:flex-row items-center justify-between">
                 <div className='flex flex-row items-center'>
                     <NavIconLink
                         src={ImagesPath.house}
@@ -17,22 +17,21 @@ const Navbar = () => {
                     />
                     <NavLink text="Home" href="/" />
                 </div>
-                <div className="flex items-center">
+                <div className="flex flex-wrap items-center mt-2 md:mt-0">
                     <ContainerStandard
                         src={ImagesPath.people}
                         alt="people icon"
                         text="Consolidado"
                         count={3}
-                        paddingX="px-3 cursor-pointer hover:bg-ui-blue-200"
-                        paddingY="py-2"
+                        paddingX="px-2 md:px-3 cursor-pointer hover:bg-ui-blue-200"
+                        paddingY="py-1 md:py-2"
                     />
                     <ContainerStandard
                         src={ImagesPath.bell}
                         alt="bell icon"
-                        paddingX="px-3 cursor-pointer hover:bg-ui-blue-200"
-                        paddingY="py-2"
+                        paddingX="px-2 md:px-3 cursor-pointer hover:bg-ui-blue-200"
+                        paddingY="py-1 md:py-2"
                         notificationCount="1"
-
                     />
                     <UserProfile
                         name="Carlota Marquez"
@@ -47,35 +46,33 @@ const Navbar = () => {
 
 const NavIconLink = ({ src, alt, href, text }) => (
     <>
-        <div className="flex items-center bg-ui-blue-200 rounded-lg p-3">
+        <div className="flex items-center bg-ui-blue-200 rounded-lg p-2 md:p-3">
             <ImageContainer src={src} alt={alt} />
         </div>
-        <Link href={href} className="h3-medium-blue ml-3">{text}</Link>
+        <Link href={href} className="h3-medium-blue ml-2 md:ml-3">{text}</Link>
     </>
-
 );
 
 const NavLink = ({ text, href }) => (
-    <Link href={href} className="medium-normal-gray ml-5">{text}</Link>
+    <Link href={href} className="medium-normal-gray ml-4 md:ml-5">{text}</Link>
 );
 
 const ImageContainer = ({ src, alt }) => (
     <div className="rounded-lg">
-        <Image src={src} alt={alt} width={20} height={20} className="w-full h-full " />
+        <Image src={src} alt={alt} width={20} height={20} className="w-full h-full" />
     </div>
 );
 
 const ContainerStandard = ({ src, alt, text, count, paddingX, paddingY, notificationCount }) => (
-    <div className="flex items-center justify-center mr-3">
-        <CustomContainer paddingX={paddingX} paddingY={paddingY} notificationCount={notificationCount}> {/* Usando py-2 como ejemplo de padding vertical */}
+    <div className="flex items-center justify-center mr-2 md:mr-3">
+        <CustomContainer paddingX={paddingX} paddingY={paddingY} notificationCount={notificationCount}>
             <ImageContainer src={src} alt={alt} />
-            {text && <span className="medium-normal-gray mx-2">{text}</span>}
+            {text && <span className="medium-normal-gray mx-1 md:mx-2">{text}</span>}
             {count && (
                 <div className="small-normal-white bg-ui-red-500 flex items-center justify-center h-5 w-5 rounded-full font-semibold">{count}</div>
             )}
         </CustomContainer>
     </div>
-
 );
 
 export default Navbar;

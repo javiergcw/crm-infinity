@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 import CardStandart from '../../card/card_standart';
 
 const ViewAllWallet = () => {
     const cardsData = [
-        { title: 'Saldo en \ncartera', value: '967.084.207', options: true },
+        { title: 'Saldo en cartera', value: '967.084.207', options: true },
         { title: 'Dias plazo cartera', value: '5 Días / max. vigente', options: true },
         { title: 'Cupo de credito real', value: 'Cupo grupo $ 900M', options: true },
         { title: 'Cupo de credito calculado', value: '0', options: true },
@@ -14,11 +14,11 @@ const ViewAllWallet = () => {
     ];
 
     return (
-        <div className="grid grid-cols-4 gap-4 w-full ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full">
             {cardsData.map((card, index) => (
                 <CardStandart
                     key={index}
-                    title={card.title}
+                    title={card.title.replace('\n', ' ')} // Correctly closed the replace method and removed unnecessary comma
                     value={card.value}
                     options={card.options}
                 />
@@ -27,4 +27,4 @@ const ViewAllWallet = () => {
     );
 }
 
-export default ViewAllWallet
+export default ViewAllWallet;

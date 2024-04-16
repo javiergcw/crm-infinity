@@ -1,21 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const LayoutWallet = ({  contentOne, contentTwo,  }) => {
-
-    const contentOneWidth = 'w-1/4';
-    const contentTwoWidth = 'w-3/4';
-
+const LayoutWallet = ({ contentOne, contentTwo }) => {
     return (
-        <div className="flex w-full h-main overflow-hidden">
-            <div className={`p-4 ${contentOneWidth} bg-white`}>
+        <div className="flex flex-col md:flex-row w-full h-main overflow-auto">
+            <div className="p-4 w-full md:w-1/4 bg-white">
                 {contentOne}
             </div>
-            <div className={`p-4 ${contentTwoWidth}  border-x-2 border-ui-gray-line bg-white`}>
+            <div className="p-4 w-full md:w-3/4 border-x-2 border-ui-gray-line bg-white">
                 {contentTwo}
-
             </div>
-
         </div>
     );
 };

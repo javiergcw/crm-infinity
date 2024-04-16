@@ -15,9 +15,9 @@ const TableSection = () => {
     }
 
     return (
-        <div className="flex flex-col h-910"> {/* Esto asegura que el componente ocupe toda la altura de la pantalla */}
+        <div className="flex flex-col h-910 "> {/* Esto asegura que el componente ocupe toda la altura de la pantalla */}
             <TitleSection title={data.zone} />
-            <div className="overflow-y-auto">
+            <div className="overflow-y-auto ">
                 {Object.entries(data.city).map(([cityName, stations]) => (
                     <div key={cityName} className="mb-4 ">
                         <button className='flex flex-row items-center py-3' onClick={() => toggleOpenCity(cityName)}>

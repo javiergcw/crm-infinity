@@ -101,9 +101,9 @@ const Cartera = () => {
                         <div className="flex px-4 py-5 h-full w-full">
 
 
-                            <ViewVolumenBuy />
+                           {/*  <ViewVolumenBuy /> */}
                             {/* <ViewCurrentWallet /> */}
-                            {/* <ViewAllWallet /> */}
+                           {/*  <ViewAllWallet /> */}
                         </div>
                         <div className=" justify-center h-full">
                             <DownCardHorizontal />
