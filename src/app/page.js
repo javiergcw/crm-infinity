@@ -36,8 +36,8 @@ export default function Home() {
         contentThree={
           <div className="w-full h-full bg-white rounded-xl border border-ui-light-gray-300">
             {/* <InvestmentDetail /> */}
-            { <WarrantyDetail />}
-            {/* <ApprovalDetail /> */}
+            {/* { <WarrantyDetail />} */}
+            <ApprovalDetail />
           </div>
         }
       />

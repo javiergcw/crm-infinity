@@ -17,6 +17,7 @@ module.exports = {
 
     // gray colors
     'ui-gray': '#707070',
+    'ui-gray-d9':"#D9D9D9",
     'ui-gray-two': '#999999',
     'ui-gray-50': '#F5F5F5',
     'ui-gray-100': '#F7FBFF',

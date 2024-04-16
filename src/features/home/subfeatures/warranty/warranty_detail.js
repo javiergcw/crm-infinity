@@ -14,6 +14,7 @@ const WarrantyDetail = () => {
     { title: 'Fecha de escritura', data: 'Descripción 1', showArrow: false },
     { title: 'Valor avalúo Comercial', data: 'Descripción 2', showArrow: false },
   ];
+
   const dataProduct = [
     { title: 'Tipo de prenda', data: 'Descripción 1', showArrow: false },
     { title: 'Vigencia de la Prenda (años)', data: 'Descripción 2', showArrow: false },
