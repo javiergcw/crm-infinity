@@ -25,6 +25,11 @@
         @apply text-xl font-heading text-ui-gray-500;
     }
 
+
+    .h2-gray-two {
+        @apply text-lg font-heading text-ui-gray-two;
+    }
+
     .medium-gray-two {
         @apply text-sm font-heading text-ui-gray-two;
     }
@@ -82,6 +87,10 @@
 
     /* black */
 
+    .normal-semibold-black {
+        @apply text-sm font-heading text-ui-black-native font-medium
+    }
+
     .super-small-normal-black {
         @apply text-2xs font-heading text-ui-black
     }
@@ -92,6 +101,9 @@
 
     .h3-normal-black {
         @apply text-xl font-heading text-ui-black
+    }
+    .h2-normal-black {
+        @apply text-2xl font-heading text-ui-black
     }
 
     /* red */

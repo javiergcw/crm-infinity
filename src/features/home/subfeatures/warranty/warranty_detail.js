@@ -1,5 +1,5 @@
 import React from 'react'
-import ComeBack from '../components/come_back'
+import ComeBack from '../../../../components/come_back'
 import TitleCategoryDetail from '../components/title_category_detail'
 import GridTwoComponent from '../components/data/grid_two_component'
 import SectionParagraph from './componentes/section_paragraph'

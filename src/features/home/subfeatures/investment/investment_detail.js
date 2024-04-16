@@ -1,6 +1,6 @@
 import React from 'react'
 import TitleCategoryDetail from '../components/title_category_detail'
-import ComeBack from '../components/come_back'
+import ComeBack from '../../../../components/come_back'
 import GridTwoComponent from '../components/data/grid_two_component';
 
 const InvestmentDetail = () => {

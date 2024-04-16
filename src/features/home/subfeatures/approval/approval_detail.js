@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import RadioButtonGroup from './componentes/radio_button_group';
-import ComeBack from '../components/come_back';
+import ComeBack from '../../../../components/come_back';
 import TitleCategoryDetail from '../components/title_category_detail';
 import GridTwoComponent from '../components/data/grid_two_component';
 import ButtonPdfLine from './componentes/button_pdf_line';
