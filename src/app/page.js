@@ -14,11 +14,12 @@ import WarrantyDetail from '@/features/home/subfeatures/warranty/warranty_detail
 export default function Home() {
 
   useEffect(() => {
-    // Reemplaza 'YOUR-LICENSE-KEY' con tu clave de licencia real
     registerLicense('Ngo9BigBOggjHTQxAR8/V1NBaF5cXmZCe0x3QHxbf1x0ZFBMYVVbQH5PMyBoS35RckVnWHpedXVcQmlcU0Fy');
   }, []);
+
   return (
     <StationProvider>
+
       <Navbar />
       <LayoutHome
         isDivided={true}
@@ -33,10 +34,11 @@ export default function Home() {
             <StationDetail />
           </div>
         }
+
         contentThree={
           <div className="w-full h-full bg-white rounded-xl border border-ui-light-gray-300">
-            {/* <InvestmentDetail /> */}
-            {/* { <WarrantyDetail />} */}
+            <InvestmentDetail />
+            <WarrantyDetail />
             <ApprovalDetail />
           </div>
         }

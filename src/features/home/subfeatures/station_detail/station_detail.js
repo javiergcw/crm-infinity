@@ -127,14 +127,7 @@ const StationDetail = () => {
                     <GridTwoComponent items={moreData} />
                 </div>
                 <GridTwoComponent items={LastMoreData} />
-                {/* <h2>Selected Station Details</h2>
-                <ul>
-                    <li>Name: {selectedStation.eds_name}</li>
-                    <li>Commercial: {selectedStation.com}</li>
-                    <li>Service Code: {selectedStation.sc}</li>
-                    <li>Percentage: {selectedStation.percentage}%</li>
-                    <li>Status: <span className={selectedStation.status === "Activo" ? "text-green-500" : "text-red-500"}>{selectedStation.status}</span></li>
-                </ul> */}
+                
             </div>
 
         </div>
