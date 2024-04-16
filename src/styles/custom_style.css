@@ -29,6 +29,11 @@
         @apply text-sm font-heading text-ui-gray-two;
     }
 
+    .small-gray-two {
+        @apply text-2xs font-heading text-ui-gray-two;
+    }
+
+
     .normal-gray {
         @apply text-sm font-heading text-ui-gray;
     }
