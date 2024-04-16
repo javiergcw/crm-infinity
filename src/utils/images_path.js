@@ -11,6 +11,7 @@ export const ImagesPath = {
     approved: '/icons/approved.svg',
     handCredit: '/icons/hand_credit.svg',
     warranty: '/icons/warranty.svg',
+    graphic: '/icons/graphic.svg',
 
     // Image
     map: '/images/map.png',

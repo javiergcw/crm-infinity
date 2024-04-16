@@ -1,5 +1,8 @@
 import React from 'react'
 import CustomTable from '../../tabla/custom_table';
+import ButtonStandard from '@/components/buttons/standart_button';
+import { ImagesPath } from '@/utils/images_path';
+import Image from 'next/image';
 
 const ViewVolumenBuy = () => {
     const tableData = {
@@ -22,10 +25,59 @@ const ViewVolumenBuy = () => {
     };
 
     return (
-        <>
-            <CustomTable data={tableData} />
+        <div className=' flex flex-col h-full'>
+            <div className="grid grid-cols-7 gap-4 w-full py-4">
+                <div className="w-full">
+                    <p className='small-gray-two'>
+                        EDS
+                    </p>
+                    <ButtonStandard text="Servi. omega" className="" arrow={true} />
 
-        </>
+                </div>
+                <div className="w-full">
+                    <p className='small-gray-two'>
+                        Años
+                    </p>
+                    <ButtonStandard text="3 años" className="" arrow={true} />
+                </div>
+                <div className="">
+
+                </div>
+                <div>
+                    <p className='text-white small-gray-two'>
+                        asd
+                    </p>
+                    <div className="flex flex-row space-x-2">
+                        <ButtonStandard text="" children={<Image src={ImagesPath.graphic} alt="graphic icon" width={18} height={18} />} className="flex-shrink-0" arrow={false} />
+                        <ButtonStandard text="Comparativo" className="" arrow={false} />
+
+                    </div>
+                </div>
+                <div className="">
+                    <p className='small-gray-two text-white'>a
+
+                    </p>
+
+                </div>
+                <div className="">
+                    <p className='small-gray-two'>
+                        Total volumen
+                    </p>
+                    <ButtonStandard text="$ 155.228.999" className="font-semibold" arrow={false} />
+
+                </div>
+                <div className="">
+                    <p className='small-gray-two'>
+                        Saldo inicial
+                    </p>
+                    <ButtonStandard text="$ 155.228.999" className="font-semibold" arrow={false} />
+
+                </div>
+
+
+            </div>
+            <CustomTable data={tableData} />
+        </div>
     )
 }
 

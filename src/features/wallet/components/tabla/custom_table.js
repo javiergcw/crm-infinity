@@ -1,8 +1,12 @@
+import ButtonStandard from '@/components/buttons/standart_button';
 import React from 'react';
 
 const CustomTable = ({ data }) => {
     return (
         <div className="overflow-x-auto h-full ">
+
+
+
             <table className="w-full text-left border-collapse">
                 <thead className="bg-ui-blue-500">
                     <tr>

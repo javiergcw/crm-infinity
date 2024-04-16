@@ -98,7 +98,9 @@ const Cartera = () => {
                         <div className="border-t-2 border-b-2 border-ui-gray-line flex items-center justify-center h-full">
                             <SectionMenuWallet />
                         </div>
-                        <div className="flex px-4 py-5">
+                        <div className="flex px-4 py-5 h-full w-full">
+
+
                             <ViewVolumenBuy />
                             {/* <ViewCurrentWallet /> */}
                             {/* <ViewAllWallet /> */}
